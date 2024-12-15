@@ -215,19 +215,19 @@
 					var _rsp = xhttp.responseText;
 				
 					if (_rsp >= -55) {
-						$('#rssi').html("WIFI Signal: Excellent (" + _rsp + "dBm)");
+						$('#rssi').html("WiFi signal: Excellent (" + _rsp + "dBm)");
 					}
 					else if (_rsp < -55 && _rsp >= -67) {
-						$('#rssi').html("WIFI Signal: Good (" + _rsp + "dBm)");
+						$('#rssi').html("WiFi signal: Good (" + _rsp + "dBm)");
 					}
 					else if (_rsp < -67 && _rsp >= -78) {
-						$('#rssi').html("WIFI Signal: Fair (" + _rsp + "dBm)");
+						$('#rssi').html("WiFi signal: Fair (" + _rsp + "dBm)");
 					}
 					else if (_rsp < -78 && _rsp >= -85) {
-						$('#rssi').html("WIFI Signal: Weak (" + _rsp + "dBm)");
+						$('#rssi').html("WiFi signal: Weak (" + _rsp + "dBm)");
 					}
 					else {
-						$('#rssi').html("WIFI Signal: Unreliable (" + _rsp + "dBm)");
+						$('#rssi').html("WiFi signal: Unreliable (" + _rsp + "dBm)");
 					}
 				}
 			}
